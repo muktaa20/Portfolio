@@ -1,6 +1,6 @@
 // src/components/Banner.jsx
-import React from 'react';
-import { motion } from 'framer-motion';
+import React from "react";
+import { motion } from "framer-motion";
 // import devImage from '../assets/developer-banner.jpg'; // 👉 Replace with your own image
 const Banner = () => {
   return (
@@ -14,16 +14,23 @@ const Banner = () => {
           className="text-center md:text-left"
         >
           <h1 className="text-4xl md:text-5xl font-bold text-slate-100 mb-4 leading-tight">
-            Hi, I'm <span className=" bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Mukta Suryavanshi</span>
+            Hi, I'm{" "}
+            <span className=" bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+              Mukta Suryavanshi
+            </span>
           </h1>
           <p className="text-lg md:text-xl text-slate-300 mb-6">
-            A passionate <span className="text-cyan-400 font-semibold">Front-End Developer</span> crafting modern and responsive web apps.
+            A passionate{" "}
+            <span className="text-cyan-400 font-semibold">
+              Front-End Developer
+            </span>{" "}
+            crafting modern and responsive web apps.
           </p>
           <a
             href="#projects"
             className="inline-block bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white font-semibold py-3 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-cyan-500/25"
           >
-           Resume
+            Resume
           </a>
         </motion.div>
 
@@ -45,7 +52,7 @@ const Banner = () => {
           </div>
         </motion.div>
       </div>
-      
+
       {/* Background decoration */}
       <div className="absolute inset-0 bg-gradient-to-br from-cyan-900/10 via-transparent to-blue-900/10 pointer-events-none"></div>
     </section>

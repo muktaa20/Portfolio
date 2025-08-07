@@ -56,22 +56,7 @@ const Projects = () => {
       codeLink: "https://github.com/muktaa20/NestedCommentApp",
       liveLink: "https://nestedcommentapp.netlify.app/",
     },
-    {
-      title: "Qwerty keyboard",
-      description:
-        "QWERTY Keyboard Simulator is an interactive web-based application that visually highlights key presses on a virtual keyboard. Built with HTML, CSS, and JavaScript, it helps users learn and practice typing by mimicking the real-time behavior of a physical QWERTY keyboard.",
-      image: keyboardDemoImage,
-      tech: [
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-      ],
-      codeLink: "https://github.com/muktaa20/keyboard",
-      liveLink: "https://qwertykeyboard.netlify.app/",
-    },
+   
   ];
 
   return (

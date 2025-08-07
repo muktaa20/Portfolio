@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const About = () => {
   return (
@@ -15,14 +15,23 @@ const About = () => {
           {/* Main Content */}
           <div className="text-center">
             <p className="text-gray-800 font-mono text-lg md:text-xl lg:text-xl leading-relaxed  max-w-5xl mx-auto">
-              As a skilled <span className="text-cyan-400 font-bold">Frontend  Developer</span>, I am passionate about software development and committed to continuous learning. I am seeking a challenging and rewarding career that values <span className="text-cyan-400 font-semibold">innovation</span> and <span className="text-cyan-400 font-semibold">teamwork</span> and allows me to contribute my knowledge and skills to the organization.
+              As a skilled{" "}
+              <span className="text-cyan-400 font-bold">
+                Frontend Developer
+              </span>
+              , I am passionate about software development and committed to
+              continuous learning. I am seeking a challenging and rewarding
+              career that values{" "}
+              <span className="text-cyan-400 font-semibold">innovation</span>{" "}
+              and <span className="text-cyan-400 font-semibold">teamwork</span>{" "}
+              and allows me to contribute my knowledge and skills to the
+              organization.
             </p>
           </div>
-         
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
