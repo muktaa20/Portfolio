@@ -1,6 +1,13 @@
-import React from 'react';
+import React from "react";
 
-const ProjectCard = ({ image, title, description, tech, codeLink, liveLink }) => {
+const ProjectCard = ({
+  image,
+  title,
+  description,
+  tech,
+  codeLink,
+  liveLink,
+}) => {
   return (
     <div className="bg-gradient-to-b from-[#0f2027] via-[#203a43] to-[#2c5364] rounded-2xl text-white p-5 w-full max-w-sm shadow-lg flex flex-col items-center">
       <img src={image} alt={title} className="w-full rounded-lg mb-4" />
